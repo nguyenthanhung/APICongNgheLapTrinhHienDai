@@ -1,0 +1,24 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1627224885.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "accessToken",
+    "refreshToken"
+  ],
+  "properties": {
+    "accessToken": {
+      "$id": "#root/accessToken",
+      "title": "accessToken",
+      "type": "string",
+      "default": ""
+    },
+    "refreshToken": {
+      "$id": "#root/refreshToken",
+      "title": "refreshToken",
+      "type": "string"
+    }
+  }
+}

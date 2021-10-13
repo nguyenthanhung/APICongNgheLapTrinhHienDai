@@ -1,0 +1,46 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1627224885.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "username",
+    "password",
+    "name"
+  ],
+  "properties": {
+    "username": {
+      "$id": "#root/username",
+      "title": "username",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "PENELOPE"
+      ],
+      "pattern": "^.*$"
+    },
+    "password": {
+      "$id": "#root/password",
+      "title": "password",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "GUINESS"
+      ]
+    },
+    "name": {
+      "$id": "#root/name",
+      "title": "name",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "refreshToken": {
+      "$id": "#root/refreshToken",
+      "title": "refreshToken",
+      "type": "string",
+      "default": ""
+    }
+  }
+}
