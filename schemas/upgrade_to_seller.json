@@ -1,0 +1,32 @@
+{
+    "required": [
+        "bidder_id"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "bidder_id": {
+            "type": "integer"
+        },
+        "admin_id": {
+            "type": "integer"
+        },
+        "is_allow": {
+            "type": "integer"
+        },
+        "decided_date": {
+            "type": "string"
+        },
+        "is_deleted": {
+            "type": "integer"
+        },
+        "created_date": {
+            "type": "string"
+        },
+        "last_update_date": {
+            "type": "string"
+        }
+    }
+}

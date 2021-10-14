@@ -7,9 +7,6 @@
     ],
     "additionalProperties": false,
     "properties": {
-        "id": {
-            "type": "integer"
-        },
         "user_name": {
             "type": "string"
         },
@@ -23,12 +20,6 @@
             "type": "string"
         },
         "email": {
-            "type": "string"
-        },
-        "user_type": {
-            "type": "integer"
-        },
-        "became_seller_date": {
             "type": "string"
         },
         "rfToken": {

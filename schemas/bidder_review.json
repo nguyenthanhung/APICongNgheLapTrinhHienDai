@@ -1,0 +1,39 @@
+{
+    "required": [
+        "bidder_id",
+        "seller_id",
+        "item_id",
+        "score",
+        "review"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "bidder_id": {
+            "type": "integer"
+        },
+        "seller_id": {
+            "type": "integer"
+        },
+        "item_id": {
+            "type": "integer"
+        },
+        "score": {
+            "type": "integer"
+        },
+        "review": {
+            "type": "string"
+        },
+        "is_deleted": {
+            "type": "integer"
+        },
+        "created_date": {
+            "type": "string"
+        },
+        "last_update_date": {
+            "type": "string"
+        }
+    }
+}
